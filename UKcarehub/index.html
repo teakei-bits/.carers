@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Blog</title>
+    <style>
+      .header-1 {
+        color: rgb(52, 116, 175);
+        font-family: Cambria;
+        font-size: 40px;
+        font-kerning: inherit;
+      }
+      body {
+        background-color: rgb(255, 255, 255);
+      }
+      p {
+        font-family: system-ui;
+        text-align: justify;
+        text-justify: inter-word;
+        padding-right: 250px;
+      }
+      h2 {
+        font-family: cambria;
+        color: #4e4d4d;
+      }
+      .page-logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        float: left;
+        margin-right: 10px;
+      }
+      .carer-1 {
+        width: 200px;
+        object-fit: cover;
+        float: left;
+        margin-right: 15px;
+      }
+      .social-handle {
+        font-family: 0;
+        padding: 0px;
+        margin-top: 0px;
+      }
+      .page-name {
+        font-weight: bold;
+        margin-bottom: 0.1px;
+      }
+      .follow {
+        border: none;
+        background-color: rgb(139, 176, 18);
+        color: white;
+        font-weight: bold;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        transition: opacity 0.2s;
+        transition: box-shadow 0.3s;
+      }
+      .follow:hover {
+        opacity: 0.6;
+        box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.187);
+      }
+      .follow:active {
+        opacity: 4;
+        color: rgb(3, 39, 51);
+        background-color: rgb(146, 197, 242);
+      }
+
+      .Subscribe-button {
+        border: none;
+        background-color: #cc0000;
+        color: white;
+        font-weight: bold;
+        font-family: Arial;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        transition: opacity 0.2s;
+        vertical-align: top;
+      }
+      .Subscribe-button:hover {
+        opacity: 0.7;
+      }
+      .Subscribe-button:active {
+        opacity: 0.5;
+      }
+
+      .Join-button {
+        border-color: #065fd4;
+        color: #065fd4;
+        font-weight: bold;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right: 5px;
+        margin-bottom: 15px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: opacity 0.2s;
+        vertical-align: top;
+      }
+      .Join-button:hover {
+        background-color: #065fd4;
+        color: white;
+      }
+      .Join-button:active {
+        opacity: 0.4;
+      }
+
+      .Tweet-button {
+        border: none;
+        background-color: #1d9bf0;
+        color: white;
+        font-weight: bold;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: opacity 0.2s;
+        transition: box-shadow 0.3s;
+        vertical-align: top;
+      }
+      .Tweet-button:hover {
+        box-shadow: 3px 5px 6px rgba(67, 67, 67, 0.284);
+      }
+      .Tweet-button:active {
+        opacity: 4;
+      }
+
+      .bottom-banner {
+        font-family: cambria;
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: rgb(52, 116, 175);
+      }
+      .call-to-action {
+        cursor: pointer;
+      }
+      .call-to-action:hover {
+        text-decoration: underline;
+      }
+      a {
+        font-family: cambria;
+        color: white;
+        margin-right: 4px;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      div {
+        margin-top: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgb(52, 116, 175);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="top-info">
+      <a href="https://gov.uk" target="blank">UK Gov.</a>
+      <a
+        href="https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers"
+        >Licenced Sponsors</a
+      >
+      <a href="https://www.gov.uk/health-care-worker-visa">Visa</a>
+      <a
+        href="https://www.google.com/search?q=care+jobs+with+visa+sponsorship+in+uk&sxsrf=AJOqlzW8YnBEAwHMqRoYhm4C5lDbiz7H0w%3A1677116737831&source=hp&ei=QcX2Y7fhMM-UhbIPkuqqgAU&iflsig=AK50M_UAAAAAY_bTUbBJaEpCyvVYf2TW-qkFOSJY9VJc&oq=&gs_lcp=Cgdnd3Mtd2l6EAEYBTIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzIHCCMQ6gIQJzINCC4QxwEQ0QMQ6gIQJ1AAWABg60xoAXAAeACAAQCIAQCSAQCYAQCwAQo&sclient=gws-wiz"
+        >Find Sponsors</a
+      >
+      <a href="https://google.com" target="blank">Ask Google</a>
+      <a href="Carer-dementia-guides.pdf" target="blank">Dementia Guide</a>
+      <a href="mailto:emmanuel.ukeng@gmail.com">Email Me</a>
+    </div>
+    <h1 class="header-1">WHAT YOU WANT TO KNOW!</h1>
+    <img class="page-logo" src="uk-flag.jpg" alt="Flag of the United Kingdom" />
+    <p class="page-name">UK Uncut</p>
+    <p class="social-handle">@lagbaja.uk</p>
+    <h2>Healthcare visas developments 2023</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia neque
+      inventore ipsum facilis, praesentium numquam maxime tempora autem earum
+      vitae dolore? Sint culpa corporis quod laborum unde fuga libero odio!
+    </p>
+    <img class="carer-1" src="carer.jpg" alt="A care worker standing" />
+    <p>
+      You can download the guidelines for taking care of adults with dementia
+      <a href="Carer-dementia-guides.pdf" download>here</a>.
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia neque
+      inventore ipsum facilis, praesentium numquam maxime tempora autem earum
+      vitae dolore? Sint culpa corporis quod laborum unde fuga libero odio!
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia neque
+      inventore ipsum facilis, praesentium numquam maxime tempora autem earum
+      vitae dolore? Sint culpa corporis quod laborum unde fuga libero odio!
+    </p>
+
+    <h2>Carers as part of NHS intervention plan</h2>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia neque
+      inventore ipsum facilis, praesentium numquam maxime tempora autem earum
+      vitae dolore? Sint culpa corporis quod laborum unde fuga libero odio!
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia neque
+      inventore ipsum facilis, praesentium numquam maxime tempora autem earum
+      vitae dolore? Sint culpa corporis quod laborum unde fuga libero odio!
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia neque
+      inventore ipsum facilis, praesentium numquam maxime tempora autem earum
+      vitae dolore? Sint culpa corporis quod laborum unde fuga libero odio!
+    </p>
+    <button class="follow">Follow me</button>
+    <a href="https://youtube.com/@tanpinnu.e"
+      ><button class="Subscribe-button">SUBSCRIBE</button></a
+    >
+    <button class="Join-button">JOIN</button>
+    <a href="https://twitter.com">
+      <button class="Tweet-button">Tweet</button></a
+    >
+
+    <form method="get" action="https://gov.uk">
+      <p>
+        <label>Search terms: <input type="search" name="q" /></label>
+      </p>
+      <p><input type="submit" /></p>
+    </form>
+    <p class="bottom-banner">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <span class="call-to-action">Start now&#62; </span>
+    </p>
+    <a class="go-to-top" href="#">Go to top</a>
+
+    
+  </body>
+</html>
